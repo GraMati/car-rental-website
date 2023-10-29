@@ -210,3 +210,31 @@ header{
     font-weight: 500;
     margin: 1.4rem 0 0.5rem;
 }
+.ride-container .box .bx:hover,
+.ride-container .box .bxs-calendar-check{
+    background: var(--gradient);
+    color: #fff;
+}
+
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.services-container .box{
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
+}
+.services-container .box .box-img{
+    width: 100%;
+    height: 200px;
+}
+.services-container .box .box-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+    object-position: center;
+}
